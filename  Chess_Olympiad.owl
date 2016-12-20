@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11">
+        <rdfs:comment>b,mb</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Великобритания -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Великобритания">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#третье_место"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Венгрия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Венгрия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#первое_место"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Дания -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Дания">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#второе_место"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#бронза -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#бронза">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#медали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#второе_место -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#второе_место">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#победители"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#дата_проведения -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#дата_проведения">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#золото -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#золото">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#медали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#командные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#командные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#призы"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#кубок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#кубок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#командные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#личные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#личные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#призы"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#медали -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#медали">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#личные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#место_проведения -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#место_проведения">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#очки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#очки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#результаты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#первое_место -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#первое_место">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#победители"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#победители -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#победители">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#призы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#призы">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#результаты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#результаты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#серебро -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#серебро">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#медали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#третье_место -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#третье_место">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#победители"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#удалить -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#удалить">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#участники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#участники">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Первый_шахматный_турнир_1927"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#выигрыш(1) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#выигрыш(1)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#очки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ничья(0.5) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ничья(0.5)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#очки"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#проигрыш(0) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#проигрыш(0)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#очки"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
