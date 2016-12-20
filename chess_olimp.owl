@@ -1,0 +1,634 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11">
+        <rdfs:comment>b,mb</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Andersen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Andersen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Argentina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Argentina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#27"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Atkins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Atkins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Austria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Austria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Belgium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Belgium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#21.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Czechoslovakia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Czechoslovakia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#second"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#38.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Finland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Finland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#21.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#France -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#France">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#24.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Germany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Germany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#HamiltonRussellCup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#HamiltonRussellCup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#cup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Havasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Havasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#HamiltonRussellCup"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#first"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#40"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Italy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Italy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Krause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Krause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#London -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#London">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#city"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Maróczy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Maróczy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Michell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Michell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Nagy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Nagy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Netherlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Netherlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#35"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Norman-Hansen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Norman-Hansen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Ruben -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Ruben">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Denmark"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Spain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Spain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#14.5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Spencer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Spencer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Steiner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Steiner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Sweden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Sweden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Switzerland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Switzerland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Thomas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Thomas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#UnitedKingdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#UnitedKingdom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#contry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#third"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#36.5"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#third"/>
+        <rdfs:comment>sobAKA</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Vajda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Vajda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Hungary"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Yates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Yates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#United_Kingdom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#bronze">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#medal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#city -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#city">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#contry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#contry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#cup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#cup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#first -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#first">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#winners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#gold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#medal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#medal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#medal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#personal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#results"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#results -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#results">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#second -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#second">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#winners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#silver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#medal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#third -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#third">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#winners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#winners -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#winners">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#ChessOlympiad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#14.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#14.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#18-29July -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#18-29July">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#1927 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#1927">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#year"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#21.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#21.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#24.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#24.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#27">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#28.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#34.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#35">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#36.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#36.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#38.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#38.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#point"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Kingdom_of_Serbs,Croats,Slovenes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#Kingdom_of_Serbs,Croats,Slovenes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#teams"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/truffleoli/ontologies/2016/11/untitled-ontology-11#30"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
